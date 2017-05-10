@@ -5,6 +5,10 @@
  */
 package Pregunta2;
 
+/**
+ *
+ * @author PC-14
+ */
 import java.util.Date;
 public class Cuenta {
     
@@ -14,15 +18,20 @@ public class Cuenta {
     private Date  fechaInicial;
     
     public Cuenta(){
-   
+        
+        
     }
-
+    
+    
     public Cuenta(int id,double saldo ){
         this.id=id;
-        this.saldo=saldo;   
+        this.saldo=saldo;
+        
+        
     }
     public void setId(int id){
-        this.id=id;    
+        this.id=id;
+        
     }
  
     public int getId(){
@@ -36,7 +45,8 @@ public class Cuenta {
  
     public double getSaldo(){
     return saldo;
-            }  
+            }   
+    
     public void setDate( Date fechaInicial){
         this.fechaInicial=fechaInicial;
         
@@ -44,17 +54,22 @@ public class Cuenta {
     public Date getfechaInicial(){
     return fechaInicial;
             }   
+    
     public void setInteresAnual(double interesAnual){
-        this.interesAnual=interesAnual;     
+        this.interesAnual=interesAnual;
+        
     }
+ 
     public double getinteresAnual(){
     return interesAnual;
             }   
+    
     public void deposito(double deposito){
         this.saldo=this.saldo+deposito;
         
     }
-      public void retiro(double retiro){
+    
+    public void retiro(double retiro){
         if(saldo<retiro){
             System.out.println("Saldo insuficiente");
         }else 

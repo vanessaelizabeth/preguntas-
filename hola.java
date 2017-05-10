@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Institucion;
+package Pregunta2;
 
 /**
  *
- * @author 
+ * @author haydecita
  */
-public class Estudiante extends Persona {
-    
-    
-    
+public class hola {
+    public static void main (String[]args){
+        System.out.println("hola mundo");
+    }
 }

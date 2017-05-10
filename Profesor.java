@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pregunta4;
+package Institucion;
 
 /**
  *
  * @author 
  */
 public class Profesor extends Empleado {
-
-    public Profesor() {
-    }
     
 }

@@ -5,6 +5,10 @@
  */
 package pregunta1;
 
+/**
+ *
+ * @author PC-14
+ */
 public class Rectangulo {
     private double altura=1;
     private double anchura=1;
